@@ -1,0 +1,381 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: black; */
+}
+
+/* .navbar-nav{
+    float: right;
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+} */
+/* Container */
+#nav-bar{
+    /* position: sticky !important; */
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.navbar{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, #020024, #090979, #00d4ff);
+    padding: 0;
+}
+
+/* For logo */
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.navbar-brand p{
+    font-size: 22px;
+    margin-top: 8px;
+    height: 40px;
+    padding-left: 20px;
+    /* font-family: 'PT Serif', serif; */
+
+}
+
+/* For navigation bar */
+
+.navbar-nav li{
+    /* float: right;  */
+    /* align-items: right;
+    justify-content: right;
+    text-align: right; */
+    /* margin-left: auto; */
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    /* font-family: 'PT Serif', serif */
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Brygada 1918', serif; */
+    /* font-family: 'Fjalla One', sans-serif; */
+    /* font-family: 'Satisfy', cursive; */
+    /* font-family: 'Tinos', serif; */
+    /* font-family: 'Metal Mania', cursive; */
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-nav li a:hover{
+    /* background-color: grey; */
+    /* color: black !important; */
+    /* border-radius: 25px; */
+    border-bottom: 1px solid white;
+    /* font-family: 'PT Serif', serif; */
+}
+
+/* For navigation button */
+.fa-bars{
+    /* position: sticky; */
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* For cover */
+#cover{
+    background-image: linear-gradient(to right, #020024, #090979, #00d4ff);
+    padding-top: 2%;
+    /* padding-top: 15px; */
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.container h2{
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Open Sans', sans-serif;
+    margin: 4px;
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.play-btn{
+    width: 60px;
+    /* padding: 15px; */
+    padding: 5px;
+    /* margin: 15px; */
+}
+#cover a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    /* margin-top: 5px; */
+    /* margin-bottom: 3px; */
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+.bottom-img{
+    width: 100%;
+    /* padding: 15px; */
+    height: 100%;
+}
+.btn1{
+    background-image: linear-gradient(to right, #020024, #090979, #00d4ff);
+    color: whitesmoke;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    margin: auto;
+    padding: 6px 20px;
+}
+.btn1:hover{
+    color: orange;
+}
+
+/* Slider */
+
+.carousel-caption h5 p{
+    color: white !important;
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Libre Baskerville', serif; */
+    display: absolute;
+    
+}
+
+/* Services */
+#services{
+    padding: 80px 0;
+    /* font-family: 'PT Serif', serif; */
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+/* .services{
+    transition: 1s ease-in-out;
+}
+.services:hover{
+    width: 20%;
+    transform: rotate(360deg) scale(2);
+} */
+
+.service-img{
+    width: 100%;
+    margin-top: 20px;
+    /* transition: 1s ease-in-out; */
+}
+
+.service-img1{
+    width: 100%;
+    height: 59%;
+    margin-top: 20px;
+    /* transition: 1s ease-in-out; */
+}
+
+.service-img2{
+    width: 100%;
+    height: 64%;
+    /* transition: 1s ease-in-out; */
+}
+
+.services h3{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.services p{
+    font-size: 18px;
+}
+.title::before{
+    content:'';
+    background: #474aa1;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content:'';
+    background: #474aa1;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #020024, #090979, #00d4ff);
+
+}
+
+/* About Us */
+#about-us{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    /* font-family: 'PT Serif', serif; */
+    /* font-family: 'Libre Baskerville', serif; */
+    /* transform: skew(20deg); */
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    /* margin-right: 15px; */
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+#about-us ul li{
+    margin: 10px 0;
+    font-size: 20px;
+    /* transition: transform 2s ease; */
+    font-family: 'Libre Baskerville', serif;
+    /* font-family: 'Open Sans', sans-serif; */
+
+}
+#about-us ul{
+    margin-left: 2px;
+}
+.col-md-6 img{
+    margin-top: 50px;
+    /* margin-bottom: 15px; */
+    /* padding: 15px; */
+}
+
+/* Clients */
+#Clients{
+    /* font-family: 'PT Serif', serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to right, #020024, #090979, #00d4ff);
+    opacity: 10;
+    color: white;
+    margin: 100px 0;
+}
+
+.Clients{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Clients:hover{
+    transform: translateY(-10px);
+}
+.Clients img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* social Media */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'PT Serif', serif; */
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    /* color: white; */
+    /* transform: skew(10deg, 20deg); */
+    
+}
+#social-media p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'PT Serif', serif; */
+}
+.social-icons img{
+    width: 70px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* Footer */
+#footer{
+    background-image: linear-gradient(to right, #020024, #090979, #00d4ff);
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'PT Serif', serif; */
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #020024, #090979);
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #020024, #090979);
+}
+hr{
+    background-color: white;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*  end of CSS*/

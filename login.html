@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External css -->
+    <link rel="stylesheet" href="login.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link for using icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Title For the Webpage -->
+    <title>Login/Signup</title>
+</head>
+
+<body>
+    <!-- For Navigation bar -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">
+
+                    <!-- For logo -->
+                    <img src="img/logo/logo1 (1).png">
+                    <p>MealUeat</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <!-- For navigation btn -->
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+
+                <!-- For navbar items -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about-us">ABOUT US</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">LOGIN/SIGNUP</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#footer">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Close Navbar Section -->
+
+     <!-- content form -->
+     <section id="login">
+     <div class="content">
+        <h1>Welcome to MealUeat</h1>
+        <form action="/acton_page.php">
+            <div class="formgroup">
+                <input type="text" placeholder="Name" required>
+            </div>
+            <div class="formgroup">
+                <input type="number" placeholder="Age" required>
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your Gender" required>
+            </div>
+            <div class="formgroup">
+                <input type="email" placeholder="Enter your Email address" required>
+            </div>
+            <div class="formgroup">
+                <input type="number" placeholder="Enter your Phone No." pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your Locality" required>
+            </div>
+
+            <!-- Submit button -->
+            <button type="button" class="btn">Submit</button>
+        </form>
+
+    </div>
+    </section>
+
+    <!-- Close Content Form -->
+
+ 
+
+    <!-- Bootrstrap JS -->
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+
+    <!-- Smooth scroll -->
+    <script src="smooth-scroll.js"></script>
+      <!-- External js -->
+      <script src="main.js"></script>
+
+</body>
+
+</html>

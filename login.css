@@ -1,0 +1,157 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif; 
+    content:"";
+    background: url(img/cover1.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    /* opacity: 0.8; */
+    /* z-index: -1;  */
+    /* opacity: 0.8; */
+} 
+
+/* Container */
+
+#navbar{
+    /* position: sticky !important; */
+    top: 0;
+    /* z-index: -1; */
+    opacity: 0.9;
+}
+
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, #020024, #090979, #00d4ff);
+    padding: 0;
+}
+
+/* For logo */
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.navbar-brand p{
+    font-size: 22px;
+    margin-top: 8px;
+    height: 40px;
+    padding-left: 20px;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+/* For navigation bar */
+
+.navbar-nav li {
+    /* float: right;  */
+    /* align-items: right;
+    justify-content: right;
+    text-align: right; */
+    /* margin-left: auto; */
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav li a:hover {
+    background-color: grey;
+    color: black !important;
+    border-radius: 25px;
+    font-family: 'PT Serif', serif;
+}
+
+/* For navigation button */
+
+.fa-bars {
+    /* position: sticky; */
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* Content */
+
+.content {
+    /* border: 2px solid grey; */
+    margin: 100px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    float: right;
+}
+
+.content .btn {
+    background-image: linear-gradient(to right, #020024, #090979);
+    color: yellow;
+    margin: 20px auto;
+    padding: 5px 5px;
+    /* margin: auto; */
+    /* padding: 6px 20px; */
+    display: block;
+    width: 23%;
+    border-radius: 10px;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content .btn:hover {
+    background: grey;
+    color: black;
+}
+form{
+    margin: 10px;
+}
+
+.formgroup input {
+    text-align: center;
+    display: block;
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 14px;
+    width: 300px;
+    padding: 1px;
+    margin: 11px auto;
+    font-size: 14px;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+.content h1{
+    text-align: center;
+    color: orange;
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+.content p{
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+}
+
+/* End of CSS */
