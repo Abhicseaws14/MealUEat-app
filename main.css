@@ -157,9 +157,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Libre Baskerville', serif; */
     display: absolute;
+    /* position: relative; */
+    /* overflow: hidden; */
     
 }
-
 /* Services */
 #services{
     padding: 80px 0;
